@@ -1,0 +1,26 @@
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do Termux
+*.swp
+*.tmp
+
+# Configurações locais do editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Evitar adicionar chave SSH ou arquivos sensíveis
+.ssh/
+*.pem
