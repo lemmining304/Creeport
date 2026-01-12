@@ -1,0 +1,7 @@
+START:
+LET X = 10
+PRINT "Hello Creeport!"
+PRINT X
+LET X = X + 1
+IF X < 15 THEN START
+END
